@@ -123,25 +123,6 @@ where `YYYYMMDD` is the date and `x` is an alphabetic revision letter
 
 ---
 
-## Changelog
-
-| Version | Summary |
-|---|---|
-| v20260406l | Fixed full voice names — `parts[3]` from `--voices` output is the complete VoiceName; dropped unreliable file-reading approach |
-| v20260406k | Attempted voice name restoration via on-disk file reading (failed on Debian — path not found) |
-| v20260406j | Added **Cylon Centurion (BSG 1978)** preset |
-| v20260406i | Added **PRESET** dropdown with 16 named sci-fi / robotic voice approximations |
-| v20260406h | Fixed VOICE field appearing blank on first launch (white-on-white text); forced TTK Combobox color states |
-| v20260406g | Fixed blank VOICE menu; corrected `--voices` column parsing; guaranteed `en-us` default always present |
-| v20260406f | Made `English_(America) [en-us]` the explicit startup default |
-| v20260406e | Fixed silent playback — switched from stdin to CLI argument for text; errors now shown in dialog |
-| v20260406d | Fixed crash: `_style_ttk` accidentally merged into `_fix_combo_width` in v20260406c |
-| v20260406c | Moved VOICE selector to full-width row above left/right split; dropdown popup sized to longest entry |
-| v20260406b | Widened right settings panel so slider labels are fully readable |
-| v20260406a | Initial release |
-
----
-
 ## Notes on Presets
 
 The preset parameter values are **community approximations** based on the
@@ -156,11 +137,3 @@ starting point; the sliders let you tune from there.
 ## License
 
 MIT License — see `LICENSE` for details.
-
----
-
-## Contributing
-
-Pull requests are welcome. If you have a well-tested preset for a voice not
-yet included, feel free to open an issue or PR with the suggested
-Speed / Pitch / Amplitude / Word Gap values and the fictional voice's source.
